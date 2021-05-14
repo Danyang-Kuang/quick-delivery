@@ -6,7 +6,7 @@ public class Userprofile implements Newuser{
     private String address;
     private String email;
 
-    public Userprofile(String name, int phone, String address, String email) {
+    public Userprofile(String name, int phone, String email, String address) {
         this.name = name;
         this.phone = phone;
         this.address = address;
