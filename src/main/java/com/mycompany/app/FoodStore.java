@@ -1,18 +1,18 @@
 package com.mycompany.app;
 
-public class Userprofile {
+public class FoodStore {
+
     private int id;
     private String name;
     private int phone;
-    private String address;
     private String email;
+    private String location;
 
-
-    public int getid() {
+    public int getId() {
         return id;
     }
 
-    public void setid(int id) {
+    public void setId(int id) {
         id = id;
     }
 
@@ -32,14 +32,6 @@ public class Userprofile {
         this.phone = phone;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -47,5 +39,12 @@ public class Userprofile {
     public void setEmail(String email) {
         this.email = email;
     }
-}
 
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+}
