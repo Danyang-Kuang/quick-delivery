@@ -27,6 +27,13 @@ public class DataSource {
     public static final int  INDEX_PRODUCTION_PRICE = 2;
     public static final int  INDEX_PRODUCTION_MENUID = 3;
 
+    public static final String  TABLE_MENU = "Menu";
+    public static final String COLUMN_MENU_ID = "_id";
+    public static final String COLUMN_MENU_NAME = "name";
+    public static final String COLUMN_MENU_FOODSTOREID = "FoodStoreId";
+    public static final int INDEX_MENU_ID = 0;
+    public static final int INDEX_MENU_NAME = 1;
+    public static final int  INDEX_MENU_FOODSTOREID = 2;
 
 
 

@@ -14,7 +14,7 @@ public class App {
         System.out.println("it should be print here");
         try (Connection conn = DriverManager.getConnection(url.getUrl());
             Statement statement = conn.createStatement()) {
-            statement.execute("CREATE TABLE IF NOT EXISTS contacts(name TEXT, phone INTEGER, email TEXT, address TEXT)");
+            statement.execute("CREATE TABLE IF NOT EXISTS FoodStore (name TEXT, phone INTEGER, email TEXT, address TEXT)");
             // create a Statement
 
             statement.execute("INSERT INTO contacts (name, phone, email, address)" + "VALUES('TRUMP', 123456,'Trump@pots.com','white house')");
