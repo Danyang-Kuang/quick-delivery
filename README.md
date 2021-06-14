@@ -1,1 +1,1 @@
-This project aims to develop a weChat app for food ordering and delivery in San Diego
+This project aims to develop a WeChat app for food ordering and delivery in San Diego
